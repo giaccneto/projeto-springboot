@@ -15,7 +15,7 @@ public class User implements Serializable {
     private String email;
     private String password;
 
-    public User(long l, String maria, String mail, String number, String id){}
+    public User(Long l, String maria, String mail, String number, String id){}
 
     public User(Long id, String name, String email, String password) {
         this.id = id;
